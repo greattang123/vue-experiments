@@ -8,6 +8,10 @@ export default new Router({
     {
       path: "/example01",
       component: () => import("@/views/Example01.vue")
+    },
+    {
+      path: "/example02",
+      component: () => import("@/views/Example02.vue")
     }
   ]
 });

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>用户名：{{ user.name }}</h1>
+    <h1>Single Binding</h1>
+    <p>用户名：{{ user.name }}</p>
     <br />
     <p v-if="user.level == 'admin'">管理员可见</p>
     <br />
